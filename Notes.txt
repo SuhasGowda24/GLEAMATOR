@@ -1,0 +1,38 @@
+Day-1
+
+Overview:
+
+Frontend Developer(HTML, CSS, Bootstrap)
+Django & SQL
+JS & React 
+Real time Projects
+
+Programming- Is the process of giving clear instruction to a computer to perform specific task.
+
+Python- Is a high-level Interpreted language and general purpose Programming language, It is known for its simple syntax and readability.
+
+Syntax- Refers to the set of rules that define how python code must be written 
+1. Indentation- Is the proper spacing of which is used at begining of line to define blocks of code in python
+Note: Python is Case Sensitive
+
+Variables- Is a container which is used to store a value.
+
+Rules of declaring a Variable:
+1. Variable names should start from letters or underscore.
+2. It cannot start with a number.
+3. It should not contain space.
+4. Special characters are not allowed except underscore.
+
+Python is known as dynamically type: Because we dont declare the data type explicitly.
+
+
+
+Day-2
+
+TYPE CONVERSION: Changning one data type to another data type  
+2 types-
+1.Implicit (Upcasting): Python automatically converts smallerdata types into bigger data types
+  Mainly works with Int, Boolean, float & Complex data types it doesnot works with string as mathematically in that case we go with explicit conversion. 
+2. Explicit (Type Casting): The data types are converted manually
+  
+When 10/2 is performed - 5.0 is obtained as float
