@@ -1,6 +1,3 @@
-
-
-
 #12. Check the Character is Oval
 # char = input("Enter a character: ")
 # if char in "aeiou":

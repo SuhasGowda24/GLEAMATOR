@@ -15,6 +15,8 @@ Syntax- Refers to the set of rules that define how python code must be written
 1. Indentation- Is the proper spacing of which is used at begining of line to define blocks of code in python
 Note: Python is Case Sensitive
 
+Day-2
+
 Variables- Is a container which is used to store a value.
 
 Rules of declaring a Variable:
@@ -27,7 +29,7 @@ Python is known as dynamically type: Because we dont declare the data type expli
 
 
 
-Day-2
+Day-3
 
 TYPE CONVERSION: Changning one data type to another data type  
 2 types-
@@ -36,3 +38,19 @@ TYPE CONVERSION: Changning one data type to another data type
 2. Explicit (Type Casting): The data types are converted manually
   
 When 10/2 is performed - 5.0 is obtained as float
+
+Day-4
+
+1. For Loops:
+Syntax: 
+For Variable in sequence/range: 
+                Statements
+
+We use for Loops when we know how many times we want to repeat a perticular iteration also when we are working with sequences like range string list etc we go for for-loop it is mostly used for count control repetition
+
+2. While Loop:
+Syntax:
+while condition:
+      Statements
+
+we use while loopwhen we dont knowhow many times the loop should run it always depend on condition it continues until condition becomes false it is mostly used for condition control repetition. 
