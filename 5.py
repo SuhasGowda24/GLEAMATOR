@@ -12,7 +12,7 @@ add()
 print(x)
 print(y)
 
-
+ 
 #print(a)
 #print(b)
 #print(c) if u print them it is error because they are local variables

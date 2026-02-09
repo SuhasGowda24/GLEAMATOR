@@ -22,7 +22,7 @@
 # user=float(input("Enter the mobile data used(in GB): "))
 # if(user<1):
 #     print("Low data usage")
-# elif (user<=5):
+# elif (user>=1 and user<=5):
 #     print("Regular User")
 # else:
 #     print("Heavy User")
@@ -55,6 +55,17 @@
 # user=input("Enter the string: ")
 # for i in reversed(user):
 #     print(i)
+#        OR
+# user=input("Enter the string: ")
+# rev=""
+# for i in user:
+#     rev=i+rev // takes each chars and pushed backwards by printing the reverse string.
+#     print(rev)
+#        OR
+# a=input("Enter a string: ")
+# for i in range(len(a)-1,-1,-1):
+#     print(a[i])
+
 
 # 8.	Write a Python program to print the following pattern:
 # *
@@ -64,12 +75,25 @@
 # for i in range(1,5):
 #     print("*"*i)
 
+# for i in range(1,5):
+#     print(" "*(5-i)," * "*i) 
+#      OR
+#l=4
+# for i in range(1,5):
+#     print(" "*l+"* "*i)
+#     l=l-1
+
+#Reverse order
+# for i in range(4,0,-1):
+#     print(" " * (4 - i) + "* " * i)
+
+# n=3
+# for i in range(1,n + 1):
+#     print(" "*(n - i)+"* "*i)
+# for i in range(n - 1, 0, -1):
+#     print(" "*(n - i)+"* "*i)
+
 #9.	Write a Python program to print numbers from 1 to N using a while loop. Ask the user to enter a number N and print numbers starting from 1 up to N.
-# n = int(input("Enter a number N: "))
-# i = 1
-# while i <= n:
-#     print(i)
-#     i += 1
 # user=int(input("Enter the number N: "))
 # i=1
 # while i<=user:
@@ -77,14 +101,14 @@
 #     i+=1
 
 #10. Write a Python program to check whether a number is a palindrome using a while loop. 
-num=int(input("Enter a num: "))
-original=num
-reverse=0
-while num>0:
-    digit = num%10
-    reverse=reverse*10+digit
-    num//=10
-if reverse==original:
-     print("Palindrome")
-else:
-    print("Not a Palindrome")
+# num=int(input("Enter a num: "))
+# original=num
+# reverse=0
+# while num>0:
+#     digit = num%10
+#     reverse=reverse*10+digit
+#     num//=10
+# if reverse==original:
+#      print("Palindrome")
+# else:
+#     print("Not a Palindrome")

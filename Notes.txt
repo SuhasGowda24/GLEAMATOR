@@ -54,3 +54,11 @@ while condition:
       Statements
 
 we use while loopwhen we dont knowhow many times the loop should run it always depend on condition it continues until condition becomes false it is mostly used for condition control repetition. 
+
+Day-6
+
+Exception handling: It is used to handle run time errors so the program doesnt crash suddenly.
+When to use Exception handling: by taking user inputs, While reading files/different datasets, while doing calculations, then the API calls.  
+1. Try- Code that may cause errors that goes inside the try block.
+2. Except- USed to handle the error caused by try block.
+3. Finally- USed to printing the final Statement after execution saying that Execution Completed.
