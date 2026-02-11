@@ -17,13 +17,13 @@ print(f"Ah, {name}, the {marital_status} legend of {location}! At {age} years yo
 
 
 #1
-# num = input("Enter the number:")
-# if num.isdigit():
-#     print("The number is Int")
-# if num.isalpha():
-#     print("The Number is a String")
-# if '.' in num and num.replace('.', '',).isdigit():
-#     print("The number is Float")
+num = input("Enter the number:")
+if num.isdigit():
+    print("The number is Int")
+if num.isalpha():
+    print("The Number is a String")
+if '.' in num and num.replace('.', '',).isdigit():
+    print("The number is Float")
 
     
 # try:

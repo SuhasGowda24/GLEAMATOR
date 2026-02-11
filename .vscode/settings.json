@@ -1,3 +1,24 @@
 {
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    "editor.suggest.selectionMode": "always",
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.preview": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showInlineDetails": true,
+    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.hover.above": false,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "emmet.useInlineCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "github.copilot.chat.agent.autoFix": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.githubMcpServer.readonly": false,
+    "github.copilot.chat.generateTests.codeLens": false,
+    "chat.extensionUnification.enabled": true
 }

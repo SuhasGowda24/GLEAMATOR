@@ -18,10 +18,10 @@
 
 def find_largest(a,b,c):
     return max(a,b,c)
-a=int(input("Enter a: "))
-b=int(input("Enter b: "))
-c=int(input("Enter c: "))
-largest=find_largest(a,b,c)
+a=int(x=input(prompt="Enter a: "))
+b=int(x=input(prompt="Enter b: "))
+c=int(x=input(prompt="Enter c: "))
+largest=find_largest(a=a,b=b,c=c)
 print("the largest number is: ",largest)
 
 
@@ -30,7 +30,7 @@ print("the largest number is: ",largest)
 def sum_of_list(numbers):
     return sum(numbers)
 numbers = [1, 2, 3, 4, 5]
-result = sum_of_list(numbers)
+result = sum_of_list(numbers=numbers)
 print(f"The sum of {numbers} is: {result}")
 
     
@@ -109,4 +109,3 @@ for items, price in items.items():
     print(items,":",price)
 # print(items)
 print("The total amount is:",total_amount)
-
