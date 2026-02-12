@@ -85,3 +85,12 @@ Syntax: dict_name= {
                       key1:"value1",
                       key2:"value2
                     }
+
+Day-8
+
+Class: A class is a structure where we define what an object should contain, it defines what data it has and also which actions it can perform it is a user defined datatype that groups data and functions together.
+Syntax: class class_name:
+            def function/method(parameter):
+                //statements
+
+Constructors: 
