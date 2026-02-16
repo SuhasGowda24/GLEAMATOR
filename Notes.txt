@@ -94,3 +94,18 @@ Syntax: class class_name:
                 //statements
 
 Constructors: 
+
+Day-12
+
+Modules: Are files containg python code that can define functions, classes,variables etc. We need modules to organize our code and avoid repetation.
+Types of module: 1. Built-in:  Modules are modules that are already provided by python, We dont create them they come preinstalled with python.(eg: import math)
+                 2. User-defined: are modules created by the programmer, any .py file created by the programmer becomes a custom module.    
+
+File Handling: It allows us to save data permamanently in the system. File handling means storing data in the file and reading data from the file.
+Syntax:
+        open("filename","mode")
+        where: mode- tells python what to with this file.
+               r- read.
+               w- write/overwrite.
+               a- append.
+               x- create a new file.
