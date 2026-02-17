@@ -8,7 +8,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggest.showInlineDetails": true,
     "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
-    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
     "editor.inlineSuggest.enabled": true,
     "editor.hover.above": false,
     "editor.quickSuggestions": {

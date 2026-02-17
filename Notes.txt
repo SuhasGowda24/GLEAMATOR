@@ -109,3 +109,17 @@ Syntax:
                w- write/overwrite.
                a- append.
                x- create a new file.
+              
+Day-13
+
+SQL(Structured Query Language): A Database is an organized collection of data 
+Database stores data in form of tables, were rows are called as records and colunms are called as fields.
+1. Primary Key- A primary key is unique, cant be duplicate,and also cant be empty.
+2. Foriegn Key- To build relationship between two tables we make use of foriegn key.
+
+Syntax: creat database database_name;
+
+Relationships in database:
+1. One-one: 
+2. One-many:
+3. many-many:
