@@ -123,3 +123,19 @@ Relationships in database:
 1. One-one: 
 2. One-many:
 3. many-many:
+
+
+Day-14
+
+Agregate Functions: 
+1. sum()
+2. avg()
+3. max()
+4. min()
+5. count()
+
+Group By: Is used to group rows that have same values in a column. It is usually used with aggregate functions.
+Having Clause: Filters grouped data.
+
+DDL(Data Definition Language): Deals with schema or structure. -> Create,Drop,Alter,Truncate.
+DML(Data Manipulation Language): Deals with the data inside the table. -> Insert,Update,Delete.
