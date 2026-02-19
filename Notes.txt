@@ -95,6 +95,7 @@ Syntax: class class_name:
 
 Constructors: 
 
+
 Day-12
 
 Modules: Are files containg python code that can define functions, classes,variables etc. We need modules to organize our code and avoid repetation.
@@ -109,7 +110,8 @@ Syntax:
                w- write/overwrite.
                a- append.
                x- create a new file.
-              
+
+
 Day-13
 
 SQL(Structured Query Language): A Database is an organized collection of data 
@@ -139,3 +141,11 @@ Having Clause: Filters grouped data.
 
 DDL(Data Definition Language): Deals with schema or structure. -> Create,Drop,Alter,Truncate.
 DML(Data Manipulation Language): Deals with the data inside the table. -> Insert,Update,Delete.
+
+
+Day-15
+
+Joins: To retrieve and combine information from multiple tables we make use of job operation.
+Inner Join: Returns only those rows where a match exists in the both the tables.
+Left Join: It returns all the records from the left table and matching racords from the right table, if no match exists null is return.
+Right Join: Vice versa of left Join.
