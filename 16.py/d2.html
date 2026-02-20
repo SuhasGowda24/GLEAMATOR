@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #1f1c2c, #928dab);
+            color: white;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+
+        /* CARD SECTION */
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            width: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+        }
+
+        .card p {
+            font-size: 14px;
+            padding: 0 10px 15px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: gold;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        #legendList {
+            display: none;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>About Us</h1>
+
+    <p>
+        We are five friends who met during our internship journey.
+        What started as professional training turned into a strong and unforgettable friendship.
+    </p>
+
+    <p>
+        From debugging errors to celebrating successful outputs,
+        from serious discussions to non-stop laughter.
+    </p>
+
+    <!-- CARDS -->
+    <div class="card-container">
+
+        <div class="card">
+            <img src="/16.py/nikhil.jpeg" alt="Nikhil">
+            <h3>Nikhil</h3>
+            <p>The calm thinker and problem solver of the group.</p>
+        </div>
+
+        <div class="card">
+            <img src="/16.py/pannaga.jpeg" alt="Pannaga">
+            <h3>Pannaga</h3>
+            <p>The creative mind who always brings fresh ideas.</p>
+        </div>
+
+        <div class="card">
+            <img src="/16.py/praveen.jpeg" alt="Praveen">
+            <h3>Praveen</h3>
+            <p>The energetic motivator who keeps the vibe alive.</p>
+        </div>
+
+    </div>
+
+    <button onclick="showLegends()">View All The Legends 🔥</button>
+
+    <div id="legendList">
+        <ul>
+            <li><strong>Suhas</strong></li>
+            <li><strong>Pannaga</strong></li>
+            <li><strong>Nikhil</strong></li>
+            <li><strong>Riteesh</strong></li>
+            <li><strong>Praveen</strong></li>
+        </ul>
+    </div>
+
+    <audio id="bgm" src="salaar_friendship_bgm.mp3"></audio>
+
+    <script>
+        function showLegends() {
+            var list = document.getElementById("legendList");
+            var audio = document.getElementById("bgm");
+
+            if (list.style.display === "none") {
+                list.style.display = "block";
+                audio.play();
+            } else {
+                list.style.display = "none";
+                audio.pause();
+                audio.currentTime = 0;
+            }
+        }
+    </script>
+
+</body>
+</html>

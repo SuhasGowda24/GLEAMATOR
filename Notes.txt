@@ -149,3 +149,35 @@ Joins: To retrieve and combine information from multiple tables we make use of j
 Inner Join: Returns only those rows where a match exists in the both the tables.
 Left Join: It returns all the records from the left table and matching racords from the right table, if no match exists null is return.
 Right Join: Vice versa of left Join.
+
+
+Day-16 
+
+CTE(Common table expression): are temparary result sets defined within a select insert, update or delete.
+Recursive CTE: 
+
+Window Function- It performs calculations across a set of rows without grouping them.   
+
+HTML(Hyper Text Markuo Language): HTML is used to display content in the browser, it is an interpreter language where each and every statements is executed line by line.
+Hyper Text- any clicable things in the browser we call it as hyper text.
+Markup Language- no computation or logical operation is performed on the markup language.
+
+Tags- is a key word that holds the content that should be displayed in the browser in web page. which is enclosed within angular brackets(< >).
+Paired tags- If started with the paired tag we should close that tag.(head,body)
+Unpaired tags- are self closing tags.(br-break,href) 
+
+<img> -  it is unpaired
+1. src
+2. alt
+3. height
+4. width
+
+<audio> </audio> - it is a paired
+1. src
+2. controls
+
+<video> </video> - it is paired
+1. src
+2. controls
+3. height
+4. width
