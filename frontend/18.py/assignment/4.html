@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Wildlife</title>
+
+</head>
+<body>
+    <header><h1 style="text-align: center;">Save Wildlife</h1></header>
+    <h2>About Wildlife:</h2>
+    <p>Wildlife conservation is the practice of protecting animals, plants, and their natural habitats to ensure that future generations can enjoy and benefit from them. Many species today are threatened due to deforestation, pollution, climate change, and illegal hunting. Conservation efforts focus on maintaining biodiversity, restoring ecosystems, and promoting sustainable use of natural resources.</p>
+    <p>Protecting wildlife is important because every species plays a unique role in maintaining ecological balance. When one species disappears, it can affect the entire food chain and disrupt the environment. Forests, oceans, and grasslands all depend on healthy wildlife populations to function properly, providing essential resources like clean air, water, and fertile soil.</p>
+    <p>Governments, organizations, and individuals all share responsibility in wildlife conservation. Creating protected areas, enforcing anti-poaching laws, spreading awareness, and adopting eco-friendly habits are some effective ways to help. By working together, we can preserve Earth’s rich biodiversity and ensure a safe and sustainable planet for future generations.</p>
+
+    <style>
+    .slider {
+        position: relative;
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .slides {
+        display: flex;
+        width: 300%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+        width: 800px;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .prev { left: 10px; }
+    .next { right: 10px; }
+</style>
+
+<div class="slider">
+    <div class="slides" id="slides">
+        <img src="/frontend/18.py/assignment/img1.jpg" alt="Wild 1">
+        <img src="/frontend/18.py/assignment/img2.webp" alt="Wild 2">
+        <img src="/frontend/18.py/assignment/img3.jpg" alt="Wild 3">
+    </div>
+
+    <button class="arrow prev" onclick="prevSlide()">❮</button>
+    <button class="arrow next" onclick="nextSlide()">❯</button>
+</div>
+
+<script>
+    let index = 0;
+    const slides = document.getElementById("slides");
+    const totalSlides = 3;
+
+    function showSlide() {
+        slides.style.transform = `translateX(${-index * 800}px)`;
+    }
+
+    function nextSlide() {
+        index = (index + 1) % totalSlides;
+        showSlide();
+    }
+
+    function prevSlide() {
+        index = (index - 1 + totalSlides) % totalSlides;
+        showSlide();
+    }
+
+    // Auto scroll every 3 seconds
+    setInterval(nextSlide, 3000);
+</script>
+
+
+<div style="text-align:center; margin-top:40px;">
+    <iframe width="800" height="450"
+        src="https://www.youtube.com/embed/u-dEnJpCGAQ?autoplay=1&mute=1"
+        title="Wildlife Video"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe><br>
+
+    <a href="https://www.loroparque-fundacion.org/en/?gad_source=1&gad_campaignid=22619037577&gbraid=0AAAAABjg6ED_sHgkPfMCy-1swme7xynek&gclid=CjwKCAiAkvDMBhBMEiwAnUA9BRnmN_EpudNRW-zLZB_e7SWg5Nu-4P4Z9DT0MFw3axGykTsMa-d_KBoCjwgQAvD_BwE" style="text-align: center;" target="_blank"><h1>Support the Cause</h1></a>
+</div>
+</body>
+</html>
