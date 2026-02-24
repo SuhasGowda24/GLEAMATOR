@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+   
+
+    <form>
+        <p>Mapping</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        
+        <label for="roll">Roll No.:</label>
+        <input type="number" id="roll">
+        <br><br>
+
+        <p>required</p>
+        <label>email:</label>
+        <input type="email" required>
+        <br><br>
+
+        <label>password:</label>
+        <input type="password" required>
+        <br><br>
+
+        <input type="submit" value="submit" onclick="alert('Form Submitted Successfully')">
+        <br><br>
+
+        <p>Checkbox</p>
+        <label>Skills:</label>
+        <input type="checkbox">
+        <label>HTML</label>
+        <input type="checkbox">
+        <label>CSS</label>
+        <input type="checkbox">
+        <label>JS</label>
+
+        <p>Radio Button</p>
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="m">
+        <label>Male</label>
+        <input type="radio" name="gender" id="f">
+        <label>Female</label>
+        <input type="radio" name="gender" id="o">
+        <label>Others</label>
+        </form>
+<form>
+        <!-- <p>Dropdown</p> -->
+        <label for="courses">Courses</label>
+        <input list="course" id="courses" name="courses">
+        <datalist id="course">
+            <option value="CSE">
+            <option value="AI">
+            <option value="ML">
+        </datalist>
+</form>
+<br><br><br>
+
+<form>
+    <p>Examination Form</p>
+    <label for="name">Name: </label>
+    <input type="text" id="name" required>
+    <br><br>
+
+    <label for="cname">College:</label>
+    <input type="'text" id="cname" required>
+    <br><br>
+
+    <label for="usn">USN:</label>
+    <input type="text" id="usn" required>
+    <br><br>
+     
+    <label for="sem">SEMESTER:</label>
+    <input type="number" id="sem" required>
+    <br><br>
+
+    <label for="branch">Courses</label>
+    <input list="branch"name="courses">
+    <datalist id="branch">
+        <option value="CSE">
+        <option value="AI/ML">
+        <option value="AI/DS">
+        <option value="MECH">
+        <option value="CIVIL">
+        <option value="EEE">
+    </datalist>
+    <br><br>
+
+    <!-- <label for="branch">Courses</label>
+    <input list="branch"name="courses">
+    <datalist id="branch">
+        <option value="CSE">
+        <option value="AI/ML">
+        <option value="AI/DS">
+        <option value="MECH">
+        <option value="CIVIL">
+        <option value="EEE">
+    </datalist> -->
+    
+    <label for="pass">Passout Year:</label>
+    <input type="number" id="pass">
+    <br><br>
+
+    <label for="dob">D.O.B:</label>
+    <input type="date" id="dob" required>
+    <br><br>
+
+    <label>Gender:</label>
+        <input type="radio" name="gender" id="m">
+        <label>Male</label>
+        <input type="radio" name="gender" id="f">
+        <label>Female</label>
+        <input type="radio" name="gender" id="o">
+        <label>Others</label>
+        <br><br>
+
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

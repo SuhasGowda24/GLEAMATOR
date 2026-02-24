@@ -1,0 +1,95 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4a6fa5;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Section Headings */
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #4a6fa5;
+}
+
+/* Paragraphs */
+p {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Lists */
+ul, ol {
+    background: white;
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a6fa5;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}

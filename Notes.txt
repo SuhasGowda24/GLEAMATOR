@@ -181,3 +181,19 @@ Unpaired tags- are self closing tags.(br-break,href)
 2. controls
 3. height
 4. width
+
+
+Day-19
+
+CSS(Cascading Style Sheet)- 
+Syntax:
+selector{
+  properties: value
+  font-style
+  margin
+  padding
+}
+
+Meta- Universal saying the html that we are styling tags.
+Viewport, content="width=device-width- saying the screen size.
+initial-scale=1.0- 100% zoom out.
