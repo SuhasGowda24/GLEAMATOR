@@ -1,95 +1,207 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f6f8;
-    color: #333;
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 20px;
-}
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f4ff;
+        }
 
-/* Header */
-header {
-    background-color: #4a6fa5;
-    color: white;
-    padding: 20px;
-    border-radius: 6px;
-    margin-bottom: 25px;
-}
+        /* Navbar */
+        nav {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            padding: 0 40px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
 
-header h1 {
-    font-size: 2em;
-}
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
 
-/* Section Headings */
-h2 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    color: #4a6fa5;
-}
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: #ccc;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 22px 20px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
 
-/* Paragraphs */
-p {
-    background: white;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    border: 1px solid #e0e0e0;
-}
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #f5a623, #e94560);
+            border-radius: 3px 3px 0 0;
+            transition: width 0.3s ease;
+        }
 
-/* Lists */
-ul, ol {
-    background: white;
-    padding: 15px 30px;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    border: 1px solid #e0e0e0;
-}
+        nav ul li a:hover {
+            color: #fff;
+        }
 
-li {
-    margin-bottom: 8px;
-}
+        nav ul li a:hover::after {
+            width: 100%;
+        }
 
-/* Table */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-    background: white;
-    border: 1px solid #ddd;
-}
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0f3460, #16213e);
+            padding: 50px 30px;
+            text-align: center;
+        }
 
-th {
-    background-color: #4a6fa5;
-    color: white;
-    padding: 10px;
-    text-align: left;
-}
+        header h1 {
+            color: white;
+            font-size: 38px;
+            letter-spacing: 2px;
+        }
 
-td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
+        header p {
+            color: #aac4ff;
+            margin-top: 10px;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
 
-tr:hover {
-    background-color: #f1f1f1;
-}
+        /* Sections */
+        .section {
+            padding: 50px 100px;
+        }
 
-/* Responsive */
-@media (max-width: 768px) {
-    body {
-        padding: 15px;
-    }
+        .section h2 {
+            font-size: 26px;
+            color: #0f3460;
+            margin-bottom: 15px;
+            border-left: 5px solid #e94560;
+            padding-left: 12px;
+        }
 
-    header h1 {
-        font-size: 1.5em;
-    }
-}
+        .section p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        /* Sports List */
+        .sports-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+            list-style: none;
+        }
+
+        .sports-list li {
+            background: linear-gradient(135deg, #0f3460, #16213e);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .sports-list li:hover {
+            transform: translateY(-3px);
+            opacity: 0.85;
+        }
+
+        /* Top 3 Winners */
+        .winners-list {
+            list-style: none;
+            margin-top: 15px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .winners-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+
+        .medal {
+            font-size: 28px;
+        }
+
+        /* Table */
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        table th {
+            background: linear-gradient(135deg, #0f3460, #16213e);
+            color: white;
+            padding: 14px 20px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+
+        table td {
+            padding: 12px 20px;
+            font-size: 14px;
+            color: #444;
+            border-bottom: 1px solid #eee;
+        }
+
+        table tr:last-child td {
+            border-bottom: none;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #e8eeff;
+        }
+
+        table tr:hover td {
+            background-color: #d0daff;
+            transition: background 0.2s ease;
+        }
+
+        .winner-tag {
+            background: linear-gradient(135deg, #e94560, #f5a623);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #16213e;
+            color: #aaa;
+            font-size: 13px;
+            margin-top: 30px;
+        }

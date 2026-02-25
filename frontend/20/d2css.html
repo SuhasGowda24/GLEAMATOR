@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2 CSS</title>
+    <style>
+        /* universal selector */
+        /* *{
+            color:rgb(255, 140, 0)
+        } */
+         /* element selector*/
+        /*p{
+            font-style:italic;
+            color:aqua
+        }*/
+        /* id selector */
+        #hi{
+            color:brown
+        }
+        /* Class selector */
+        .abc{
+            color:blueviolet;
+            font-style:oblique
+        }
+        /* div tag */
+        #container{
+            text-align:center;
+            margin: 50px;
+            padding:90px;
+            top: 20px;
+            bottom:30px;
+            left:70;
+            background-color:rgb(234, 255, 4);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border:20px solid black;
+            font-size:large;
+            color:black
+        }
+        /* flex box */
+        .container{
+            display:flex;
+            gap:10px;
+        }
+        .box{
+            background-color:brown;
+            color:white;
+            text-align:center;
+            margin-left:250px;
+            border:20px solid black;
+            position:relative;
+        }
+        .boxing{ 
+    margin-top:20px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top{
+    display: inline-block;  
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px auto;       
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.left{
+    padding: 10px;
+    background-color:burlywood
+}
+
+.center{
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.right{
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Bottom layout */
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.bottom-left{
+    margin: 0;
+    background-color:blue
+}
+
+.bottom-right{
+    margin: 0;
+    background-color:aquamarine
+}
+
+    </style>
+</head>
+<body>
+    <p>Element Selector</p>
+    <h1 id="hi">Id selector</h1>
+    <h2 class="abc">Class Selector1</h2>
+    <h3 class="abc">Class Selector2</h3>
+
+    <div id="container">
+        <h1>Div tag used for box model</h1>
+    </div>
+
+    <div class="container">
+        <div class="box"><h1>Flex Box1</h1></div>
+        <div class="box"><h1>Flex Box2</h1></div>
+        <div class="box"><h1>Flex Box2</h1></div>
+    </div>
+
+<div class="boxing">
+
+    <div class="top">hi</div>
+
+    <div class="middle">
+        <div class="left">Say Hi...</div>
+        <pre class="center">Hello</pre>
+        <p class="right">say Hello...</p>
+    </div>
+
+    <div class="bottom">
+        <h2 class="bottom-left">hi</h2>
+        <p class="bottom-right">sasy hi..</p>
+    </div>
+
+</div>
+
+</body>
+</html>

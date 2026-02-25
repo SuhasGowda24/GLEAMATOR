@@ -4,58 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inter-College Sports Tournament.</title>
-    <link rel="stylesheet" href="/frontend/19/3style.css"
+    <link rel="stylesheet" href="/frontend/19/3style.css">
 </head>
 <body>
-    <header><h1 style="text-align: center;">Inter-College Sports Tournament.</h1></header>
-    <h2>Introduction: </h2>
-    <p> The Inter-College Sports Tournament brings together talented students from various colleges to compete, showcase their skills, and promote teamwork and sportsmanship.</p>
-    
-    <h2>Sports conducted</h2>
-    <ul>
-        <li>Cricket</li>
-        <li>Football</li>
-        <li>Basketball</li>
-        <li>Volleyball</li>
-        <li>Badminton</li>
-    </ul>
-    <h2>Top 3 Winning Teams</h2>
-    <ol>
-        <li>Team Phoenix</li>
-        <li>Team Warriors</li>
-        <li>Team Titans</li>
-    </ol>
-    <table border="2">
-        <tr>
-            <th>Sports Name</th>
-            <th>Team A Score</th>
-            <th>Team B Score</th>
-            <th>Winner</th>
-        </tr>
-        <tr>
-            <td>Cricket</td>
-             <td>185</td>
-            <td>172</td>
-            <td>Team A</td>
+   <nav>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#winners">Winners</a></li>
+            <li><a href="#scores">Scoreboard</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>🏆 Inter-College Sports Tournament</h1>
+        <p>Compete · Showcase · Champion</p>
+    </header>
+
+    <!-- Introduction -->
+    <div class="section" id="intro">
+        <h2>Introduction</h2>
+        <p>The Inter-College Sports Tournament brings together talented students from various colleges to compete, showcase their skills, and promote teamwork and sportsmanship. This event celebrates athletic excellence and the spirit of healthy competition.</p>
+    </div>
+
+    <!-- Sports Conducted -->
+    <div class="section" id="sports">
+        <h2>Sports Conducted</h2>
+        <ul class="sports-list">
+            <li>🏏 Cricket</li>
+            <li>⚽ Football</li>
+            <li>🏀 Basketball</li>
+            <li>🏐 Volleyball</li>
+            <li>🏸 Badminton</li>
+        </ul>
+    </div>
+
+    <!-- Top 3 Winners -->
+    <div class="section" id="winners">
+        <h2>Top 3 Winning Teams</h2>
+        <ul class="winners-list">
+            <li><span class="medal">🥇</span> Team Phoenix</li>
+            <li><span class="medal">🥈</span> Team Warriors</li>
+            <li><span class="medal">🥉</span> Team Titans</li>
+        </ul>
+    </div>
+
+    <!-- Scoreboard Table -->
+    <div class="section" id="scores">
+        <h2>Scoreboard</h2>
+        <table>
+            <tr>
+                <th>Sports Name</th>
+                <th>Team A Score</th>
+                <th>Team B Score</th>
+                <th>Winner</th>
             </tr>
             <tr>
-            <td>Football</td>
-            <td>2</td>
-            <td>3</td>
-            <td>Team B</td>
+                <td>🏏 Cricket</td>
+                <td>185</td>
+                <td>172</td>
+                <td><span class="winner-tag">Team A</span></td>
             </tr>
             <tr>
-                <td>Basketball</td>
+                <td>⚽ Football</td>
+                <td>2</td>
+                <td>3</td>
+                <td><span class="winner-tag">Team B</span></td>
+            </tr>
+            <tr>
+                <td>🏀 Basketball</td>
                 <td>78</td>
                 <td>74</td>
-                <td>Team A</td>
+                <td><span class="winner-tag">Team A</span></td>
             </tr>
             <tr>
-                <td>Volleyball</td>
+                <td>🏐 Volleyball</td>
                 <td>25</td>
                 <td>22</td>
-                <td>Team A</td>
+                <td><span class="winner-tag">Team A</span></td>
             </tr>
-    </table>
+        </table>
+    </div>
+
+    <footer>
+        © 2025 Inter-College Sports Tournament. All rights reserved.
+    </footer>
 </body>
 </html>
