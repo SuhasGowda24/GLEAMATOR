@@ -1,0 +1,31 @@
+1. If a webpage contains 5 <div> elements and each div contains 3 <p> tags, how many total paragraph elements are there on the page?
+-> 15 <p> tags
+
+2. A container has a width of 500px. If padding is 20px on all sides and border is 5px on all sides, what will be the total width of the element according to the CSS Box Model?
+-> 550px
+
+3. If 4 elements use the same class selector and you change the color property of that class, how many elements will be affected?
+-> 4 elements will be affected
+
+4. A CSS Grid layout has 3 columns and 4 rows. How many total grid cells are created?
+-> 12 total grid cells
+
+5. If a webpage has 10 images and each image takes 2 seconds to load, how long will it take to load all images assuming they load one after another?
+-> 20 seconds
+
+6. If you apply position: absolute to an element inside a container that has position: relative, with respect to which element will the positioning happen?
+-> Positioning will happen with respect to that container-parent element
+
+7. If you use display: none on 3 elements out of 10 total elements, how many elements will be visible on the page?
+-> 7 elements
+
+8. A media query is written using max-width: 768px. Will it apply to a screen size of 600px? Explain your answer.
+-> media query will apply because 600px is less than 768px.
+(Max-Width->applies to that width and below.)
+(Min-Width->applies to that width and above.)
+
+9. If two CSS rules target the same element — one using a class selector and one using an ID selector — which one will have higher priority?
+-> ID selector will have higher priority
+
+10.	If a parent element has font-size: 20px and a child element has font-size: 2em, what will be the final font size of the child element?
+-> 40px
