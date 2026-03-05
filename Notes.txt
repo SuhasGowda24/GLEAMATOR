@@ -197,3 +197,61 @@ selector{
 Meta- Universal saying the html that we are styling tags.
 Viewport, content="width=device-width- saying the screen size.
 initial-scale=1.0- 100% zoom out.
+
+
+Day-24
+
+Django - Is a tool helps us build websites using python. It is a high level python framework.
+
+Why we need Django? - To create database connection to build login systems, to secure passwords, to handle hackers. Builtin admin panel. Data base handling(ORM-Object Relational Mapping), security,pass development.
+
+Architecture-Means a structure or design patterns used to build application.
+MVC Architecture (Model View Cotroller)- Model handles the database or data.
+                                        View shows the interface for users
+                                        Controller handles logic communication between model and view.
+MVT Architecture (Model View Template)- Model handles Data.
+                                        View handles Logic.
+                                        Template handles user interface.
+
+Django-Request-Response Cycle:
+Users send request
+URL dispachter sends request to view
+View processes logic
+View interacts with the model(if data is needed)
+Model returns the data
+View sends that data to Template
+Template renders HTML responses back to the user.
+
+Syntax: (django-admin startproject djangoproject1)
+
+manage.py - Is a file that is used to run commands for the project 
+settings.py - file contains configuration
+urls.py - handles routings   
+
+
+Day-25
+
+Model- A model in Django is a python class that represents a database table, Fields are the columns in the database, Django automatically creates id field which will be a primary key.
+
+Relationship is a connection between 2 database 
+
+Types of relationship-
+1. Foreign Key(1 to many)
+2. One to One field
+3. Many to Many field
+
+Query Set is a collection of objects form the database it is used to retreieve filter update and delete the data.
+Query Set is a result of a database query
+
+API(Application Programing Interface)- An API allows 2 applications to communicate with each other.
+
+REST(Representational State Transfer)- It is a standard way of designing API's, It uses HTTP methods
+Methods are- GET() to retrieve the data
+POSt(to Create the data)
+PUT(to update the data)
+DELETE(to delete the data)
+
+DRF(Django REST Framework): It is a library which is built on top of Django.
+It helps us create API's easily to convert models to JSON to handle authentication and ti handle permission.
+
+Serializers- Converts Complex data like Django Models into JSON Formate and also JSON Data, since Django models are python objects we make use of serializer to convert that model into JSON format.
