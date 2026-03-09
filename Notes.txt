@@ -255,3 +255,13 @@ DRF(Django REST Framework): It is a library which is built on top of Django.
 It helps us create API's easily to convert models to JSON to handle authentication and ti handle permission.
 
 Serializers- Converts Complex data like Django Models into JSON Formate and also JSON Data, since Django models are python objects we make use of serializer to convert that model into JSON format.
+
+
+
+React - 
+1. npx create-react-app new-app
+2. cd new-app
+3. npm start
+4. Inside the src folder create a javascript file(example.js-In this write the code)
+5. In app.js add the file loc.
+6. 
